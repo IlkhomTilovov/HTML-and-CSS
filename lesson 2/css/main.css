@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.nav{
+    width: 1300px;
+    align-items: center;
+   
+}
+h2{
+    text-align: center;
+    padding: 15px 10px;
+}
+img{
+    
+    justify-content: space-between;
+    width: 24%;
+}
+a{
+    text-decoration: none;
+}
+iframe{
+    width: 33%;
+    padding: 24px 10px;
+}

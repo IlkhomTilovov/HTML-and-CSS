@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 14, 25);
+}
+
+.container {
+    width: 800px;
+    margin: 100px auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(50, 50, 80);
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+.navItem {
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+img {
+    width: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.im {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.down {
+    fill: #fff;
+}
+
+.body {
+    display: flex;
+    gap: 20px;
+}
+
+.body-seclect {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.body-item {
+    background-color: rgb(50, 50, 80);
+    border-radius: 10px;
+
+}
+
+.body-item>.link {
+    padding: 15px;
+    border-bottom: 1px solid rgb(39, 39, 77);
+}
+
+.menu {
+    background-color: rgb(97, 158, 158);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h5 {
+    color: #fff;
+}
+
+.br {
+    border: none;
+}
+
+.OS {
+    padding: 20px;
+}
+
+.date {
+    width: 200px;
+    height: 200px;
+    border: 50px solid rgb(97, 158, 158);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.bodyImg {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.bodyImg2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(189, 189, 189);
+}
+
+.bodyImg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.chat:nth-child(1){
+    border-top: 2px solid yellow;
+}

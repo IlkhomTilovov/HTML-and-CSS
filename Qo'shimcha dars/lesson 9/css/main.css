@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(14, 14, 25);
+}
+
+
+img {
+    width: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(50, 50, 80);
+    border-radius: 8px;
+    padding: 0 1rem;
+}
+
+.navItem {
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.acimg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.body {
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menu {
+    gap: 20px;
+    background-color: rgb(70, 70, 119);
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.menu-box {
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid rgb(25, 25, 48);
+    
+}
+
+.menuBox {
+    text-align: center;
+    background-color: rgba(127, 228, 228, 0.705);
+    padding: 20px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.statistics {}
+
+.block {
+    display: grid;
+    gap: 20px;
+    background-color: rgb(70, 70, 119);
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.qoshish {
+    margin-left: auto;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.man {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    border: 5px solid rgb(97, 97, 97);
+}
+
+.blockfooter {
+    display: grid;
+    gap: 20px;
+    
+}
+
+.blockfooter-item {
+    gap: 10px;
+    display: inline;
+    
+}
+
+.join {
+    display: grid;
+    gap: 20px;
+    background-color: rgb(70, 70, 119);
+    border-radius: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    color: #fff;
+}

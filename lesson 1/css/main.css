@@ -1,0 +1,15 @@
+body{
+    margin: 0 auto;
+    width: 1200px;
+}
+.h1{
+    text-align: center;
+    
+    
+    
+}
+.p{
+    margin: 0 auto;
+    padding: 20px 30px;
+    display: flex;
+}

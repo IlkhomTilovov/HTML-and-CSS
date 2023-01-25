@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 250px 1100px;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.quloq {
+    display: flex;
+    gap: 90px;
+
+}
+
+@keyframes quloq2 {
+    0% {
+        transform: skewY(2deg);
+    }
+
+    100% {
+        transform: skewY(30deg);
+    }
+}
+
+@keyframes quloq {
+    0% {
+        transform: skewY(2deg);
+    }
+
+    100% {
+        transform: skewY(-30deg);
+    }
+}
+
+.quloqlar {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(184, 184, 184);
+    animation: quloq 2s infinite alternate;
+}
+
+.quloqlar:hover {
+    animation-play-state: paused;
+}
+
+.quluqItem {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(231, 231, 231);
+    top: 30px;
+    right: 0;
+}
+
+.quloqlar:nth-child(2) {
+    animation: quloq2 2s infinite alternate;
+
+}
+
+.quloqlar:nth-child(2) .quluqItem {
+    top: 30px;
+    left: 0px;
+}
+
+.quloqlar:nth-child(2):hover {
+    animation-play-state: paused;
+}
+
+.bosh {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-color: rgb(155, 155, 155);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    left: 57px;
+    top: 30px;
+}
+
+.bosh:hover {
+    animation: bosh 3s infinite alternate;
+    width: 230px;
+    height: 200px;
+}
+
+@keyframes bosh {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+
+    25% {
+        transform: rotateY(40deg) rotateX(-5deg);
+    }
+
+    50% {
+        transform: rotateY(40deg) rotateX(-5deg);
+    }
+
+    75% {
+        transform: rotateY(-40deg) rotateX(-5deg);
+    }
+
+    100% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+}
+
+.burun:hover {
+    animation: burun 3s infinite alternate;
+}
+
+@keyframes burun {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+
+    25% {
+        transform: rotateY(40deg) rotateX(5deg);
+    }
+
+    50% {
+        transform: rotateY(40deg) rotateX(5deg);
+    }
+
+    75% {
+        transform: rotateY(-40deg) rotateX(-5deg);
+    }
+
+    100% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+}
+
+@keyframes burun1 {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+
+    100% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+}
+
+.burun {
+    animation-play-state: paused;
+}
+
+.koz {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(58, 61, 78);
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.koz:hover {
+    background-color: transparent;
+}
+
+.koz:hover .qorachiq {
+    display: none;
+}
+
+.koz:hover .yopish img {
+    display: block;
+}
+
+.yopish img {
+    display: none;
+    width: 30px;
+    height: 50px;
+}
+
+
+
+.burun {
+    width: 40px;
+    height: 70px;
+    background-color: rgb(58, 61, 78);
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 7px;
+}
+
+.boshItem {
+    position: relative;
+    margin-top: 80px;
+    padding-bottom: 10px;
+
+}
+
+.qorachiq {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 7px;
+    margin-right: 3px;
+}
+
+.burunItem {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-bottom: 10px;
+}
+
+.tana {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(128, 128, 128);
+    left: 65px;
+    top: 200px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.tanaItem {
+    width: 160px;
+    height: 200px;
+    background-color: rgb(236, 236, 236);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+.oyoq {
+    position: absolute;
+    gap: 50px;
+    top: 310px;
+    left: 60px;
+
+}
+
+.oyoq2 {
+    position: absolute;
+    gap: 50px;
+    top: 0px;
+    left: 120px;
+
+}
+
+.s2 {
+    width: 80px;
+    height: 100px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: flex-end;
+    transform: rotate(25deg);
+
+}
+
+.s1 {
+    width: 80px;
+    height: 100px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: flex-end;
+    transform: rotate(25deg);
+
+}
+
+.s1:hover {
+    animation: oyoq infinite alternate;
+    animation-duration: 2s;
+}
+
+.s2:hover {
+    animation: oyoq1 infinite ;
+    animation-duration: 2s;
+}
+
+@keyframes oyoq {
+    0% {
+        margin-left: 0;
+        transform: rotate(35deg);
+    }
+
+    50% {
+        margin-left: 50px;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        margin-left: 0px;
+        transform: rotate(35deg);
+    }
+}
+
+@keyframes oyoq1 {
+    0% {
+        margin-left: 0;
+        transform: rotate(-35deg);
+    }
+
+    50% {
+        margin-left: -50px;
+        transform: rotate(0deg);
+    }
+
+    100% {
+        margin-left: 0px;
+        transform: rotate(-35deg);
+    }
+}
+
+.oyoqItem {
+    width: 80px;
+    height: 90px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(155, 155, 155);
+}
+
+.s2 {
+    transform: rotate(-25deg);
+    transition: all 3s ;
+}
+
+.kozItem {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+    left: 60px;
+    top: 115px;
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 250px 500px;
+    background-color: rgb(228, 212, 220);
+}
+
+.container {
+    width: 350px;
+    height: 450px;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+img {
+    width: 10%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+input {
+    padding: 0 10px;
+    display: flex;
+    width: 256px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    margin: 0 47px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 20px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(246, 36, 78);
+    color: #fff;
+}
+
+.les {
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.2);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: rgb(246, 36, 78);
+}
+
+.les h1 {
+    color: rgb(223, 223, 223);
+    margin-top: 120px;
+    padding: 0 10px;
+}
+
+.les p {
+    text-align: center;
+    padding: 20px 40px;
+    color: rgb(223, 223, 223);
+    font-weight: 400;
+}

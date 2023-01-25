@@ -1,0 +1,50 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.form-group {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+    padding: 1rem 1.2rem;
+    box-sizing: border-box;
+}
+
+input {
+    width: 60%;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+    border: 1px solid#ccc;
+    display: inline-block;
+}
+
+label {
+    display: inline-block;
+    width: 35%;
+    padding: 0.5rem 1.5rem;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+select {
+    width: 19%;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid#ccc;
+    padding: -0.5rem 1.5rem;
+}
+
+.davlat {
+    width: 60%;
+    padding: 0.5rem 1.5rem;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 20px auto;
+    background-color: #45bd42;
+    color: #fff;
+    border-color: #44ab41;
+}

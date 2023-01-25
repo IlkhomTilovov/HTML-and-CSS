@@ -1,0 +1,57 @@
+.container{
+    margin: 250px auto;
+    padding: 0;
+    width: 1200px;
+}
+.header{
+    margin: 0;
+    padding: 10px 10px;
+    width: 1172;
+    height: 60px;
+    background-color: yellow;
+    border: 4px solid wheat;
+}
+.sub{
+    display: flex;
+}
+.nav{
+    margin: 0;
+    padding: 10px 10px;
+    background-color: yellow;
+    width: 250px;
+    border: 4px solid wheat;
+}
+.subitem{
+    display: flex;
+    flex-direction: column;
+}
+ .subheader{
+    display: flex;
+
+}
+ 
+.article{
+    margin: 0;
+    padding: 10px 10px;
+    width: 650px;
+    height: 60px;
+    background-color: yellow;
+    border: 4px solid wheat;
+}
+
+.ads{
+    margin: 0;
+    padding: 10px 10px;
+    width: 272px;
+    height: 60px;
+    background-color: yellow;
+    border: 4px solid wheat;
+
+}
+.footer{
+    padding: 8px 10px;
+    width: 950px;
+    height: 60;
+    background-color: yellow;
+    border: 4px solid wheat;
+}

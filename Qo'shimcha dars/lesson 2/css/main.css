@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+h3 {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+table {
+    width: 32%;
+    height: 200px;
+    border-collapse: collapse;
+    border: 3px solid;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(68, 121, 68);
+    color: #fff;
+    font-weight: 600;
+}
+td{
+    border: 1px solid;
+    padding: .5rem;
+}
+th {
+    text-align: right;
+    border: 1px solid;
+}
+th[colspan]{
+    padding:0 .5rem
+}
+tr :nth-child(2){
+    text-align: center;
+}
+tr :nth-child(3){
+    text-align: center;
+}

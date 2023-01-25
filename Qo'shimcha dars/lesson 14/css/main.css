@@ -1,0 +1,45 @@
+body {
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 25px;
+    animation: scaling 2.5s ease-in-out infinite;
+}
+
+@keyframes scaling {
+    0%, 100% {
+        transform: scale(0.2);
+        background-color: red;
+    }
+
+    50% {
+        transform: scale(1);
+        background-color: black;
+    }
+}
+
+div:nth-child() {
+    animation-delay: 0s;
+}
+div:nth-child(1) {
+    animation-delay: .2s;
+}
+div:nth-child(2) {
+    animation-delay: .4s;
+}
+div:nth-child(3) {
+    animation-delay: .6s;
+}
+div:nth-child(4) {
+    animation-delay: .8s;
+}
+div:nth-child(5) {
+    animation-delay: 1s;
+}

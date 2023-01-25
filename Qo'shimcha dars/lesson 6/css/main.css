@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: orange;
+    --height: 100px;
+    --size: 20px;
+    --gap: 10px;
+}
+.p {
+    padding: 10px 0 0 10px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.fun {
+    background-color: var(--red);
+    height: var(--height);
+    font-size: var(--size);
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    gap: var(--gap)
+}
+
+.nav {
+    width: 20%;
+    height: 210px;
+}
+
+.bodyItem {
+    flex: 1;
+    display: flex;
+    gap: var(--gap);
+    flex-direction: column;
+}
+
+.aticleBox {
+    display: flex;
+    gap: var(--gap);
+}
+
+.article {
+    flex: 1;
+}
+
+.ads {
+    width: 20%;
+}

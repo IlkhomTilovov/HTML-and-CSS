@@ -1,0 +1,55 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+/* img {
+    width: 130px;
+    height: 150px;
+
+
+} */
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex: wrap;
+    align-items: flex-end;
+    gap: 60px;
+}
+
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    font-size: 25px;
+    border: 1px solid;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    /* margin: 0;
+    padding: 0; */
+
+}
+
+.nav h1:nth-child(1) {
+    color: rgb(180, 152, 82);
+}
+
+.nav h1:nth-child(2) {
+    color: rgb(64, 148, 64);
+}
+
+h1 {
+    margin-left: 12%;
+}
