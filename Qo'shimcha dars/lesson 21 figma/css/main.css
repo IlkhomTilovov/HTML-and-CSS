@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 68px;
+    background-color: #141414;
+}
+
+.left {
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    margin-left: 428px;
+    text-transform: uppercase;
+}
+
+.left img {
+    width: 14px;
+    height: 14px;
+}
+
+.right {
+    display: flex;
+    gap: 37px;
+    color: #fff;
+    margin-right: 68px;
+    text-transform: uppercase;
+}
+
+.logo {
+    position: absolute;
+    left: 68px;
+    z-index: 33;
+}
+
+.body1 {
+    width: 100%;
+    height: 659px;
+    background: #141414;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fff; */
+}
+
+.img {
+    margin-left: 68px;
+}
+
+.box1 {
+    position: absolute;
+    width: 584px;
+    height: 455px;
+    background-color: #fff;
+    left: 720px;
+    top: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+}
+
+.box1 h1 {
+    font-family: 'Teko', sans-serif;
+    width: 400px;
+    height: 135px;
+    margin-left: 68px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.box1 p {
+    margin-left: 68px;
+    width: 450px;
+    height: 51px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.pc {
+    color: #99823D;
+}
+
+.button1 {
+    margin-left: 68px;
+    display: flex;
+    gap: 17px;
+
+}
+
+.button1>button:nth-child(1) {
+    background-color: #99823D;
+    width: 216px;
+    height: 68px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+.button1>button:nth-child(2) {
+    background-color: #141414;
+    width: 216px;
+    height: 68px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+
+
+}
+
+.box2 {
+    position: absolute;
+    width: 489px;
+    height: 329px;
+    background-color: #99823D;
+    left: 863px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: #EBEBEB;
+    ;
+    width: 978px;
+    height: 68px;
+    margin-left: 68px;
+    display: flex;
+    gap: 37px;
+    text-transform: uppercase;
+    align-items: center;
+    margin-top: -3px;
+}
+
+.body2 {
+    width: 100%;
+    height: 872px;
+    background-color: #EBEBEB;
+    padding-top: 135px;
+    padding-left: 135px;
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+    position: relative;
+
+}
+
+.body2Text {
+    display: flex;
+    gap: 102px;
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.left1 p {
+    width: 690px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.left1 h1 {
+    width: 670px;
+    text-transform: uppercase;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.left1>p:nth-child(1) {
+    text-transform: uppercase;
+
+}
+
+.left1>p:nth-child(3) {
+    margin-top: 28px;
+}
+
+.left1>p:nth-child(4) {
+    margin-top: 16px;
+}
+
+.right2 {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.text1 {
+    display: flex;
+    gap: 17px;
+}
+
+.text1 p {
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 50px;
+}
+
+.text2 h1 {
+    width: 360px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}
+
+.num {
+    width: 113px;
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.num p {
+    text-transform: uppercase;
+}
+
+.num h1 {
+    font-family: 'Teko', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.boxNum {
+    width: 9px;
+    height: 9px;
+    background-color: #99823D;
+}
+
+.body2Photo {
+    background-image: url(../img/photo1.svg);
+    width: 412px;
+    height: 275px;
+    position: relative;
+    bottom: -70px;
+
+}
+
+.body2Photo:nth-child(2) {
+    background-image: url(../img/photo2.svg);
+}
+
+.body2Photo:nth-child(3) {
+    background-image: url(../img/photo3.svg);
+}
+
+.photo {
+    display: flex;
+    gap: 34px;
+    margin-left: -68px;
+}
+
+.photoText {
+    width: 103px;
+    height: 34px;
+    background-color: #141414;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+}
+
+.boxText {
+    width: 378px;
+    height: 68px;
+    background-color: #141414;
+    position: absolute;
+    bottom: -68px;
+    text-align: center;
+    line-height: 68px;
+    color: #fff;
+    z-index: 6;
+
+}
+
+.boxText2 {
+    position: absolute;
+    width: 206px;
+    height: 102px;
+    background-color: #99823D;
+    bottom: -68px;
+    right: 0;
+    text-align: center;
+    z-index: 5;
+
+}
+
+.boxText2 p {
+    color: #fff;
+    padding: 5px 0;
+}
+
+.body3 {
+    width: 100%;
+    margin-top: 269px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.body3Box {
+    width: 11px;
+    height: 11px;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+}
+
+.body3Text {
+    width: 816px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    
+}
+
+.body3Text h1 {
+    width: 840px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 53px;
+    text-align: center;
+
+}
+
+.qalamBody3 {
+    display: flex;
+    gap: 17px;
+}
+
+.qalamText {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+}
+
+.bodyqalam {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    width: 292px;
+    height: 228px;
+
+}
+.mar{
+    margin-top: 162px;
+}
+.body3Box1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.button2{
+    display: flex;
+    justify-content: center;
+}
+.button2 button{
+    width: 392px;
+    height: 68px;
+    background-color: #99823D;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
