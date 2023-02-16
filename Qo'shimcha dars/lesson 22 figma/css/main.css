@@ -119,3 +119,151 @@
     top: 210px;
     box-shadow: 0 0 15px rgba(80, 80, 80.05);
 }
+
+.check {
+    display: flex;
+    gap: 32px;
+    margin: 24px 24px;
+}
+
+.checkbox {
+    display: flex;
+    gap: 8px;
+}
+
+.btnText {
+    width: 100%;
+    display: flex;
+    margin: 24px 24px;
+    gap: 16px;
+}
+
+.texnik {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+.texnik button {
+    display: flex;
+    width: 232px;
+    height: 32px;
+    position: relative;
+    border: none;
+
+}
+
+.texnik>button p {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    width: 232px;
+    height: 32px;
+}
+
+.texnik>button img {
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+/* .w30 {
+    width: 30%;
+}
+
+.w17 {
+    width: 17%;
+} */
+.proiz {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.proiz button {
+    width: 184px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    border: none;
+}
+
+.yil {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.yil button {
+    display: flex;
+    width: 100px;
+    height: 32px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    border: none;
+}
+
+.yilButton {
+    display: flex;
+    gap: 3px;
+}
+
+.nayti {
+    display: flex;
+    gap: 16px;
+}
+
+/* .redButton {
+    width: 79px;
+    height: 32px;
+    text-align: center;
+} */
+
+.redButton button {
+    width: 79px;
+    height: 32px;
+    background: #CD0000;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkFooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+.checkText {
+    display: flex;
+    gap: 6px;
+    color:#808080;
+    width: 600px;
+    height: 13px;
+}
+
+.red {
+    
+    color: #CD0000;
+}
+
+.checkButton button {
+    width: 201px;
+    height: 32px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    border: 1px solid #CACACA;
+}
